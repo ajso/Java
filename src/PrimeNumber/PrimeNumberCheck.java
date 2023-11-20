@@ -1,5 +1,7 @@
 package PrimeNumber;
 
+import java.util.Scanner;
+
 /*
 Prime numbers are numbers that have only two factors, 1 and themselves
 
@@ -28,7 +30,13 @@ public class PrimeNumberCheck {
     }
 
     public static void main(String[] args) {
-        System.out.println(isPrime(19)); // true
-        System.out.println(isPrime(49)); // false
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the number to Check:");
+        int myNum = scanner.nextInt();
+        if(isPrime(myNum)){
+            System.out.println(myNum +" Is a prime number."); // true
+        }else{
+            System.out.println(myNum +" Is NOT a prime number."); // false
+        }
     }
 }
