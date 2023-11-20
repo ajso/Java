@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeInterviewQns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumberCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VowelsPresent/CheckForVowels.java" afterDir="false" />
+    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java Basic Sample solutions">
+      <change afterPath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumberCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +40,11 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CheckForVowels">
+  <component name="RunManager" selected="Application.PrimeNumbers">
     <configuration name="CheckForVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VowelsPresent.CheckForVowels" />
       <module name="CodeInterviewQns" />
@@ -77,6 +71,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrimeNumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumber.PrimeNumberCheck" />
+      <module name="CodeInterviewQns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrimeNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeNumber.PrimeNumbers" />
+      <module name="CodeInterviewQns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PrimeNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ReverseString.ReverseClass" />
       <module name="CodeInterviewQns" />
@@ -92,6 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrimeNumbers" />
+        <item itemvalue="Application.PrimeNumberCheck" />
         <item itemvalue="Application.CheckForVowels" />
         <item itemvalue="Application.ReverseClass" />
         <item itemvalue="Application.MainClass" />
@@ -107,9 +129,39 @@
       <option name="presentableId" value="Default" />
       <updated>1700425535416</updated>
     </task>
+    <task id="LOCAL-00001" summary="Java Basic Sample solutions">
+      <option name="closed" value="true" />
+      <created>1700516922697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1700516922697</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Java Basic Sample solutions">
+      <option name="closed" value="true" />
+      <created>1700517044361</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700517044361</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Java Basic Sample solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Basic Sample solutions" />
   </component>
 </project>
