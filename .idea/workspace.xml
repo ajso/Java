@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java Basic Sample solutions">
+    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java updated solutions">
+      <change afterPath="$PROJECT_DIR$/src/ClockGUI/ClockFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ClockGUI/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumberCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimeNumber/PrimeNumberCheck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ajso"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="91ebc0d1-9331-415e-b517-d12e76f25305" />
+        <option name="url" value="git@github.com:ajso/Java.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
@@ -43,7 +58,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.PrimeNumberCheck">
+  <component name="RunManager" selected="Application.ClockGUI.MainClass">
     <configuration name="CheckForVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="VowelsPresent.CheckForVowels" />
       <module name="CodeInterviewQns" />
@@ -57,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReverseString.MainClass" />
+    <configuration name="ClockGUI.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClockGUI.MainClass" />
       <module name="CodeInterviewQns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ReverseString.*" />
+          <option name="PATTERN" value="ClockGUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClockGUI.MainClass" />
         <item itemvalue="Application.PrimeNumberCheck" />
         <item itemvalue="Application.PrimeNumbers" />
         <item itemvalue="Application.CheckForVowels" />
         <item itemvalue="Application.ReverseClass" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700521155772</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Java updated solutions">
+      <option name="closed" value="true" />
+      <created>1700521713616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700521713616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Java Basic Sample solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Basic Sample solutions" />
+    <MESSAGE value="Java updated solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java updated solutions" />
   </component>
 </project>
