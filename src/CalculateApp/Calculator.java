@@ -76,8 +76,8 @@ public class Calculator implements ActionListener {
         }
 
         //setting separate bounds for the delete and clear buttons
-        negButton.setBounds(50,430,100,50);
-        deleteButton.setBounds(150, 430, 100, 50);
+        negButton.setBounds(50,430,90,50);
+        deleteButton.setBounds(150, 430, 90, 50);
         clearButton.setBounds(250, 430, 100, 50);
 
         //creating a panel to hold all the different buttons.
@@ -137,10 +137,7 @@ public class Calculator implements ActionListener {
         }
 
         //setting the onClick for the functions buttons.
-        //decimal button
-        if (e.getSource() == decimalButton) {
-            textField.setText(textField.getText().concat("."));
-        }
+
         //add
         if (e.getSource() == addButton) {
             num1 = Double.parseDouble(textField.getText());
@@ -197,9 +194,24 @@ public class Calculator implements ActionListener {
         //setting up the delete button
         if (e.getSource() == deleteButton){
             String str = textField.getText();
+            textField.setText("");
             for (int i = 0; i<str.length()-1; i++){
                 textField.setText(textField.getText()+str.charAt(i));
             }
+        }
+
+        //adding functionality to the negative button
+        if(e.getSource() == negButton){
+            //retrieve the text in the textField
+            double temp = Double.parseDouble(textField.getText());
+            temp*=-1;
+            //set the text to the temp variable
+            textField.setText(String.valueOf(temp));
+        }
+
+        //decimal button
+        if (e.getSource() == decimalButton) {
+           textField.setText(textField.getText().concat("."));
         }
 
     }
