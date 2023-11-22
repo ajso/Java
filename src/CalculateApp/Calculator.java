@@ -10,9 +10,10 @@ public class Calculator implements ActionListener {
     JFrame frame;
     JTextField textField; //the text field to be used.
     JButton[] numButton = new JButton[10]; // array of numbers on a button.
-    JButton[] functionButtons = new JButton[8]; // array of function buttons(+,-,/,* etc)
+    JButton[] functionButtons = new JButton[9]; // array of function buttons(+,-,/,* etc)
     //function buttons
-    JButton addButton, subButton, divideButton, multButton, decimalButton, equalButton, deleteButton, clearButton;
+    JButton addButton, subButton, divideButton, multButton,
+            decimalButton, equalButton, deleteButton, clearButton, negButton;
     JPanel panel;
 
     //declare the font to use on the buttons
@@ -46,6 +47,7 @@ public class Calculator implements ActionListener {
         equalButton = new JButton("=");
         deleteButton = new JButton("Delete");
         clearButton = new JButton("Clear");
+        negButton = new JButton("(-)");
 
         //Adding the button to the functionsButtons Array.
         functionButtons[0] = addButton;
@@ -56,6 +58,7 @@ public class Calculator implements ActionListener {
         functionButtons[5] = equalButton;
         functionButtons[6] = deleteButton;
         functionButtons[7] = clearButton;
+        functionButtons[8] = negButton;
 
         //using a for loop, distribute the functionButtons
         for (int i = 0; i < functionButtons.length; i++) {
@@ -73,8 +76,9 @@ public class Calculator implements ActionListener {
         }
 
         //setting separate bounds for the delete and clear buttons
-        deleteButton.setBounds(50, 430, 145, 50);
-        clearButton.setBounds(205, 430, 145, 50);
+        negButton.setBounds(50,430,100,50);
+        deleteButton.setBounds(150, 430, 100, 50);
+        clearButton.setBounds(250, 430, 100, 50);
 
         //creating a panel to hold all the different buttons.
         panel = new JPanel();
@@ -111,6 +115,7 @@ public class Calculator implements ActionListener {
 
 
         frame.add(panel);
+        frame.add(negButton);//adding the negative button to the frame
         frame.add(deleteButton); //adding the delete button to the frame
         frame.add(clearButton); //adding the clear button to the frame
         frame.add(textField); //adding the textField to the frame
@@ -162,6 +167,40 @@ public class Calculator implements ActionListener {
         }
 
         //Working on the equals button
+        if (e.getSource() == equalButton){
+            num2 = Double.parseDouble(textField.getText());
+            //Using the switch statement to switch through the operator
+            switch (operator){
+                case '+':
+                    result = num1+num2;
+                    break;
+                case '-':
+                    result = num1-num2;
+                    break;
+                case '*':
+                    result = num1*num2;
+                    break;
+                case '/':
+                    result = num1/num2;
+                    break;
+            }
+            textField.setText(String.valueOf(result)); //update the testField to display the results
+            num1 = result; //set num1 to result in case we want to continue with the operation.
+
+        }
+
+        //setting up the clear button
+        if(e.getSource() == clearButton){
+            textField.setText("");
+        }
+
+        //setting up the delete button
+        if (e.getSource() == deleteButton){
+            String str = textField.getText();
+            for (int i = 0; i<str.length()-1; i++){
+                textField.setText(textField.getText()+str.charAt(i));
+            }
+        }
 
     }
 

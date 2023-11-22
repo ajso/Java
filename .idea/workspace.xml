@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java updated solutions">
-      <change afterPath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" afterDir="false" />
+    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java calculator solutions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700584747998</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Java calculator solutions">
+      <option name="closed" value="true" />
+      <created>1700667129133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1700667129133</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +224,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Java Basic Sample solutions" />
     <MESSAGE value="Java updated solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java updated solutions" />
+    <MESSAGE value="Java calculator solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java calculator solutions" />
   </component>
 </project>
