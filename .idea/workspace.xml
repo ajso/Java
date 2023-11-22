@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java calculator final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700670490841</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Java calculator final">
+      <option name="closed" value="true" />
+      <created>1700672340395</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1700672340395</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
