@@ -212,6 +212,9 @@ public class Calculator implements ActionListener {
         //decimal button
         if (e.getSource() == decimalButton) {
            textField.setText(textField.getText().concat("."));
+//           if(result == result){
+//               textField.setText(".");
+//           }
         }
 
     }

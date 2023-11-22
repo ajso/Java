@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java calculator solutions">
+    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java calculator final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CalculateApp/Calculator.java" afterDir="false" />
     </list>
@@ -51,6 +51,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -214,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700669146109</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java calculator final">
+      <option name="closed" value="true" />
+      <created>1700670490841</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1700670490841</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,6 +243,7 @@
     <MESSAGE value="Java Basic Sample solutions" />
     <MESSAGE value="Java updated solutions" />
     <MESSAGE value="Java calculator solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java calculator solutions" />
+    <MESSAGE value="Java calculator final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java calculator final" />
   </component>
 </project>
