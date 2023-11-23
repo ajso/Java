@@ -5,13 +5,21 @@ import java.util.Scanner;
 
 public class EmployeeService {
 
+    int id;
+    String name;
+    int age;
+    String department;
+    String designation;
+    int salary;
+    boolean found = false;
+
     HashSet<EmployeeModel> employeeHashSet = new HashSet<EmployeeModel>();
 
     EmployeeModel employee1 = new EmployeeModel(101, "Ecurut", 35, "IT",
             "Developer", 25000);
     EmployeeModel employee2 = new EmployeeModel(102, "Bernic Wang", 28, "Engineering",
             "Technician", 50000);
-    EmployeeModel employee3 = new EmployeeModel(101, "Esther", 30, "Finance",
+    EmployeeModel employee3 = new EmployeeModel(103, "Esther", 30, "Finance",
             "Accountant", 36000);
 
 
@@ -28,5 +36,22 @@ public class EmployeeService {
         for (EmployeeModel emp:employeeHashSet) { //foreach to display all employees
             System.out.println(emp);
         }
+    }
+    //View Employee by Id
+    public void viewEmpById(){
+
+        System.out.println("Enter Employee Id:"); //prompt user to enter the employee id
+        id = sc.nextInt(); //receive the entered id
+        for (EmployeeModel emp:employeeHashSet) { //loop through all the available dataset
+            //check if the id entered by user exists in the dataset
+            if(emp.getId() == id){
+                System.out.println(emp);
+                found = true;
+            }
+        }
+        if(!found){
+            System.out.println("No User with id "+id);
+        }
+
     }
 }

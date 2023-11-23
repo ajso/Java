@@ -36,7 +36,8 @@ public class EmployeeApp {
                     System.out.println("Selection Option");
                     break;
                 case 2:
-                    System.out.println("Selection Option");
+                    System.out.println("=====Employee Details=====");
+                    employeeService.viewEmpById();
                     break;
                 case 3:
                     System.out.println("Selection Option");
