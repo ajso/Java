@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Java calculator final">
+      <change afterPath="$PROJECT_DIR$/src/EmployeeApp/EmployeeApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +59,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Calculator">
+  <component name="RunManager" selected="Application.EmployeeApp">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculateApp.Calculator" />
       <module name="CodeInterviewQns" />
@@ -72,12 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckForVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VowelsPresent.CheckForVowels" />
+    <configuration name="ClockGUI.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClockGUI.MainClass" />
       <module name="CodeInterviewQns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="VowelsPresent.*" />
+          <option name="PATTERN" value="ClockGUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClockGUI.MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClockGUI.MainClass" />
+    <configuration name="EmployeeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EmployeeApp.EmployeeApp" />
       <module name="CodeInterviewQns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ClockGUI.*" />
+          <option name="PATTERN" value="EmployeeApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ClockGUI.MainClass" />
         <item itemvalue="Application.PrimeNumberCheck" />
         <item itemvalue="Application.PrimeNumbers" />
-        <item itemvalue="Application.CheckForVowels" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700672340395</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Java calculator final">
+      <option name="closed" value="true" />
+      <created>1700676450775</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1700676450775</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
