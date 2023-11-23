@@ -7,7 +7,7 @@ public class EmployeeModel {
     private int age;
     private String department;
     private String designation;
-    private int salary;
+    private double salary;
 
     public EmployeeModel(int id, String name, int age, String department, String designation, int salary) {
         this.id = id;
@@ -58,11 +58,11 @@ public class EmployeeModel {
         this.designation = designation;
     }
 
-    public int getSalary() {
+    public double getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 

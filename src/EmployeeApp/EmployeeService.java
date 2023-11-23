@@ -10,7 +10,7 @@ public class EmployeeService {
     int age;
     String department;
     String designation;
-    int salary;
+    double salary;
     boolean found = false;
 
     HashSet<EmployeeModel> employeeHashSet = new HashSet<EmployeeModel>();
@@ -50,8 +50,36 @@ public class EmployeeService {
             }
         }
         if(!found){
-            System.out.println("No User with id "+id);
+            System.out.println("No User Found with id "+id);
         }
 
+    }
+
+    //method to update Employee
+    public void updateEmployee(){
+        System.out.println("Enter Employee ID to Update:");
+        id = sc.nextInt();
+        for (EmployeeModel emp:employeeHashSet) {
+
+            if(emp.getId() == id){
+                System.out.println("Enter New employee Name:");
+                name = sc.next();
+                System.out.println("Enter New employee Salary:");
+                salary = sc.nextDouble();
+
+                //set the new name
+                emp.setName(name);
+                emp.setSalary(salary);
+                System.out.println("============Updated=============");
+                System.out.println(emp);
+                found = true;
+            }
+
+        }
+        if(!found){
+            System.out.println("No User Found with id "+id);
+        }else{
+            System.out.println("Employee with id "+id+" Updated Successfully.");
+        }
     }
 }

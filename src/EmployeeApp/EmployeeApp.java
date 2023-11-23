@@ -40,7 +40,8 @@ public class EmployeeApp {
                     employeeService.viewEmpById();
                     break;
                 case 3:
-                    System.out.println("Selection Option");
+                    System.out.println("=====Update Employee=====");
+                    employeeService.updateEmployee();
                     break;
                 case 4:
                     System.out.println("Selection Option");
