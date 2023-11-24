@@ -44,7 +44,8 @@ public class EmployeeApp {
                     employeeService.updateEmployee();
                     break;
                 case 4:
-                    System.out.println("Selection Option");
+                    System.out.println("=====Delete Employee=====");
+                    employeeService.deleteEmployee();
                     break;
                 case 5:
                     System.out.println("=====View All Emplyees=====");

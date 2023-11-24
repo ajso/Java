@@ -82,4 +82,26 @@ public class EmployeeService {
             System.out.println("Employee with id "+id+" Updated Successfully.");
         }
     }
+
+    public void deleteEmployee(){
+        System.out.println("Enter Employee ID to be Deleted:");
+        id=sc.nextInt();
+        EmployeeModel delete = null;
+        for (EmployeeModel emp:employeeHashSet) {
+            if(emp.getId() == id){
+                delete = emp;
+                found = true;
+            }
+        }
+        if(!found){
+            System.out.println("No User Found with id "+id);
+        }else{
+            employeeHashSet.remove(delete);
+            System.out.println("Employee with id "+id+" Deleted Successfully.");
+        }
+
+    }
+
+    //Add new Employee.
+
 }
