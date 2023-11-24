@@ -32,36 +32,37 @@ public class EmployeeService {
     }
 
     //View all Employees.
-    public void viewAllEmployees(){
-        for (EmployeeModel emp:employeeHashSet) { //foreach to display all employees
+    public void viewAllEmployees() {
+        for (EmployeeModel emp : employeeHashSet) { //foreach to display all employees
             System.out.println(emp);
         }
     }
+
     //View Employee by Id
-    public void viewEmpById(){
+    public void viewEmpById() {
 
         System.out.println("Enter Employee Id:"); //prompt user to enter the employee id
         id = sc.nextInt(); //receive the entered id
-        for (EmployeeModel emp:employeeHashSet) { //loop through all the available dataset
+        for (EmployeeModel emp : employeeHashSet) { //loop through all the available dataset
             //check if the id entered by user exists in the dataset
-            if(emp.getId() == id){
+            if (emp.getId() == id) {
                 System.out.println(emp);
                 found = true;
             }
         }
-        if(!found){
-            System.out.println("No User Found with id "+id);
+        if (!found) {
+            System.out.println("No User Found with id " + id);
         }
 
     }
 
     //method to update Employee
-    public void updateEmployee(){
+    public void updateEmployee() {
         System.out.println("Enter Employee ID to Update:");
         id = sc.nextInt();
-        for (EmployeeModel emp:employeeHashSet) {
+        for (EmployeeModel emp : employeeHashSet) {
 
-            if(emp.getId() == id){
+            if (emp.getId() == id) {
                 System.out.println("Enter New employee Name:");
                 name = sc.next();
                 System.out.println("Enter New employee Salary:");
@@ -76,32 +77,49 @@ public class EmployeeService {
             }
 
         }
-        if(!found){
-            System.out.println("No User Found with id "+id);
-        }else{
-            System.out.println("Employee with id "+id+" Updated Successfully.");
+        if (!found) {
+            System.out.println("No User Found with id " + id);
+        } else {
+            System.out.println("Employee with id " + id + " Updated Successfully.");
         }
     }
 
-    public void deleteEmployee(){
+    public void deleteEmployee() {
         System.out.println("Enter Employee ID to be Deleted:");
-        id=sc.nextInt();
+        id = sc.nextInt();
         EmployeeModel delete = null;
-        for (EmployeeModel emp:employeeHashSet) {
-            if(emp.getId() == id){
+        for (EmployeeModel emp : employeeHashSet) {
+            if (emp.getId() == id) {
                 delete = emp;
                 found = true;
             }
         }
-        if(!found){
-            System.out.println("No User Found with id "+id);
-        }else{
+        if (!found) {
+            System.out.println("No User Found with id " + id);
+        } else {
             employeeHashSet.remove(delete);
-            System.out.println("Employee with id "+id+" Deleted Successfully.");
+            System.out.println("Employee with id " + id + " Deleted Successfully.");
         }
 
     }
 
     //Add new Employee.
+    public void addEmployee() {
+        System.out.println("Enter New Employee ID:");
+        id = sc.nextInt();
+        System.out.println("Enter Employee Name:");
+        name = sc.next();
+        System.out.println("Enter Employee Age:");
+        age = sc.nextInt();
+        System.out.println("Enter Employee Department:");
+        department = sc.next();
+        System.out.println("Enter Employee Designation:");
+        designation = sc.next();
+        System.out.println("Enter Employee Salary:");
+        salary = sc.nextDouble();
+
+        EmployeeModel emp = new EmployeeModel(id, name, age, department, designation, salary);
+        employeeHashSet.add(emp);
+    }
 
 }

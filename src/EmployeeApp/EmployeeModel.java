@@ -9,7 +9,7 @@ public class EmployeeModel {
     private String designation;
     private double salary;
 
-    public EmployeeModel(int id, String name, int age, String department, String designation, int salary) {
+    public EmployeeModel(int id, String name, int age, String department, String designation, double salary) {
         this.id = id;
         this.name = name;
         this.age = age;
