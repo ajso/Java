@@ -120,6 +120,9 @@ public class EmployeeService {
 
         EmployeeModel emp = new EmployeeModel(id, name, age, department, designation, salary);
         employeeHashSet.add(emp);
+
+        System.out.println(emp);
+        System.out.println("Employee Successfully Added");
     }
 
 }
