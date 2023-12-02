@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Employee mgt app" />
+    <list default="true" id="f6b38564-de45-498c-b394-5eb9cd4a6d50" name="Changes" comment="Porker">
+      <change beforePath="$PROJECT_DIR$/src/PokerGame/PokerGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PokerGame/PokerGame.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +59,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EmployeeApp">
+  <component name="RunManager" selected="Application.PokerGame">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CalculateApp.Calculator" />
       <module name="CodeInterviewQns" />
@@ -96,6 +99,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokerGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PokerGame.PokerGame" />
+      <module name="CodeInterviewQns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="PokerGame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrimeNumberCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimeNumber.PrimeNumberCheck" />
       <module name="CodeInterviewQns" />
@@ -109,26 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrimeNumber.PrimeNumbers" />
-      <module name="CodeInterviewQns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="PrimeNumber.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PokerGame" />
         <item itemvalue="Application.EmployeeApp" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.ClockGUI.MainClass" />
         <item itemvalue="Application.PrimeNumberCheck" />
-        <item itemvalue="Application.PrimeNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +312,31 @@
       <option name="project" value="LOCAL" />
       <updated>1701023345294</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Employee mgt app">
+      <option name="closed" value="true" />
+      <created>1701414460556</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1701414460556</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Employee mgt app">
+      <option name="closed" value="true" />
+      <created>1701416375125</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701416375125</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Porker">
+      <option name="closed" value="true" />
+      <created>1701502424217</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1701502424217</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -330,6 +357,7 @@
     <MESSAGE value="Java calculator solutions" />
     <MESSAGE value="Java calculator final" />
     <MESSAGE value="Employee mgt app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Employee mgt app" />
+    <MESSAGE value="Porker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Porker" />
   </component>
 </project>
